@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<carriers>
+			<click_and_collect>
+				<model>BA\ClickCollectDelivery\Model\Carrier\ClickCollect</model>
+				<active>0</active>
+				<title>Click and Collect</title>
+				<sidebar_title>Click and Collect Dublin Store</sidebar_title>
+				<name>Dublin Store</name>
+				<price>0.00</price>
+				<specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+				<sallowspecific>1</sallowspecific>
+				<firstname>Add</firstname>
+				<lastname>Store</lastname>
+				<company>Company</company>
+				<street>Street Name</street>
+				<postcode>Dublin 4</postcode>
+				<region>Ireland</region>
+			</click_and_collect>
+		</carriers>
+	</default>
+</config>

@@ -1,0 +1,20 @@
+{
+    "name": "ba/module-clickcollectdelivery",
+    "description": "Click Collect Delivery Method",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Pearlbells",
+            "email": "admin@pearlbells.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BA\\ClickCollectDelivery\\": ""
+        }
+    }
+}
